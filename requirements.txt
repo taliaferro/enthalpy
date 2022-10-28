@@ -1,6 +1,6 @@
 # need to specify LC CA cert with "pip --cert ~/cert.pem"
 # install new packages from the LC Python Wheelhouse:
-# pip --cert ~./cert.pem install --no-index --find-links https://www-lc.llnl.gov/python/wheelhouse/ <package(s)-to-install>
+# pip --cert ~/cert.pem install --no-index --find-links https://www-lc.llnl.gov/python/wheelhouse/ <package(s)-to-install>
 -f https://www-lc.llnl.gov/python/wheelhouse/
 
 certifi==2022.6.15
